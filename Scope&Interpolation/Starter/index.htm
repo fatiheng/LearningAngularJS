@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="myApp">
+    <head>
+        <title>Learn and Understand AngularJS</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="UTF-8">
+
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <script src="../../angular.js"></script>
+        <script src="angular-messages.min.js"></script>
+        <script src="../../jquery.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+        <script src="app.js"></script>
+
+        <style>
+            html, body, input, select, textarea
+            {
+                font-size: 1.05em;
+            }
+        </style>
+        
+       
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">AngularJS</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div ng-controller="mainController">
+                <h1>Hello {{ name }}!</h1>
+                
+            </div>
+
+            
+        </div>
+
+    </body>
+</html>
